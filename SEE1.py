@@ -3,5 +3,5 @@ def SEE1(word,phrase):
 
 
 
-number = SEE1("Hi", "Helllo Hi Hi")
+number = SEE1("Hi", "Helllo Hi")
 print(number)
