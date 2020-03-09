@@ -1,10 +1,13 @@
 def four(arg1):
     list = []
     work = arg1.split()
+    one = 0
     for i in range(len(work)):
         ones = str(work[i])
-        one = int(ones[0]) + int(ones[1])
-        list.append(one)
+        for i in range(len(ones)):
+            one += int(ones[i])
+            print(one)
+    list.append(one)
     return max(list)
 
 

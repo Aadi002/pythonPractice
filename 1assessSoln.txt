@@ -1,0 +1,48 @@
+2nd answer:
+
+lower=input1.lower()
+	seper=lower.split()
+	for i in range(len(seper)):
+		if seper[i] = 
+	found = seper.find("bert")
+
+	return found
+
+result=two("bertclivebert")
+print(result)
+
+
+4th answer
+
+def four(arg1):
+    list = []
+    work = arg1.split()
+    for i in range(len(work)):
+        ones = str(work[i])
+        one = int(ones[0]) + int(ones[1])
+        list.append(one)
+    return max(list)
+
+
+	
+result = four("15 72 80 164")
+print(result)
+
+
+5th answer
+
+name=""
+	for i in range(len(input1)):
+		while(input1[i] != ","):
+			name += input1[i]
+		
+
+
+
+9th anser
+
+result = new.find(char)
+		if result:
+			return result + 1
+		else:
+			return -1
